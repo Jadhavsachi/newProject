@@ -45,6 +45,11 @@ public class UtilityNeoStox
 		{
 			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waitTime));
 		}
+	
+	public static void waitmethod(WebDriver driver, long waitTime, int a)
+		{
+			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waitTime));
+		}
 		
 	
 }
