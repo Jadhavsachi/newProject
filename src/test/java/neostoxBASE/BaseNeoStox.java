@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.Reporter;
 
 import neostoxUtility.UtilityNeoStox;
 
@@ -31,6 +32,7 @@ public class BaseNeoStox
 				 File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		         File dest= new File("E:\\Screenshot\\"+TCID+".jpg");
 			     FileHandler.copy(src, dest);
+			     Reporter.log("new commit for github", true);
 				
 			}
 	   
