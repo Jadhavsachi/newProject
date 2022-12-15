@@ -33,6 +33,7 @@ public class BaseNeoStox
 		         File dest= new File("E:\\Screenshot\\"+TCID+".jpg");
 			     FileHandler.copy(src, dest);
 			     Reporter.log("new commit for github", true);
+			     Reporter.log("for branch1 commit", true);
 				
 			}
 	   
